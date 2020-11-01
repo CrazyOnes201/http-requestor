@@ -23,4 +23,8 @@ public class SnowflakeUtil {
     public static long create() {
         return DEFAULT_SNOWFLAKE.nextId();
     }
+
+    public static void main(String[] args) {
+        System.out.println(SnowflakeUtil.create());
+    }
 }
